@@ -1,0 +1,36 @@
+.main
+{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: #0404e3;
+    align-items: center;
+    color: hwb(0 100% 0%);
+    font-size: 20px;
+}
+.main > .selected {
+    background: aqua;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    color: #0404e3;
+    font-weight: bold;
+}
+
+
+
+.user-name-item {
+    display: flex;
+    align-items: center;
+}
+
+.main div
+{
+    cursor: pointer;
+}
+
+.main img {
+    height: 111px;
+    width: 200px;
+}

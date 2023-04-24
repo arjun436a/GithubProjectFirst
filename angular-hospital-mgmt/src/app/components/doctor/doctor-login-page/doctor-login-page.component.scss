@@ -1,0 +1,66 @@
+/*
+.client-login {
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 135, 90, 0.28) 0px 4px 7px 12px;
+    text-align: center;
+    padding: 20px;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+.sign-up{
+    color:blue;
+    cursor: pointer;
+}
+
+
+
+.rounded-t-5 {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  @media (min-width: 992px) {
+    .rounded-tr-lg-0 {
+      border-top-right-radius: 0;
+    }
+
+    .rounded-bl-lg-5 {
+      border-bottom-left-radius: 0.5rem;
+    }
+  }
+  */
+
+
+  .error-message input:focus {
+    animation: blink-border 1s infinite;
+}
+
+@keyframes blink-border {
+    0% {
+        border-color: red;
+    }
+    50% {
+        border-color: yellow;
+    }
+    100% {
+        border-color: red;
+    }
+}
+
+
+  form {
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+form.hide-form {
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
